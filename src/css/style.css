@@ -3,11 +3,9 @@ body {
     min-height: 700px;
 }
 
-
 .tabuada {
     display: flex;
     padding: 30px;
-    flex-wrap: wrap;
 }
 
 .tabuada .field {
@@ -52,4 +50,10 @@ body {
 .field-calculation form input {
     width: 50px;
     text-align: center;
+}
+
+@media(max-width:600px) {
+    main .tabuada {
+        flex-direction: column;
+    }
 }
