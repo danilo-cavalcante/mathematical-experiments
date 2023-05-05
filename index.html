@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" href="src/css/style.css">
+    <title>Bhaskara</title>
+</head>
+<body>
+    <main>
+        <h3>Bhaskara</h3>
+        <section class="calculo">
+            <form>
+                <div class="number">
+                    <label for="a">a = </label>
+                    <input type="number" id="a">
+                </div>
+                <div class="number">
+                    <label for="b">b = </label>
+                    <input type="number" id="b">
+                </div>
+                <div class="number">
+                    <label for="c">c = </label>
+                    <input type="number" id="c">
+                </div>
+                <button id="calcular-equacao">calcular</button>
+            </form>
+            <div class="response">
+                <p class="formula">ax&sup2 + bx + c = 0</p>
+                <p class="formula-aplicada"></p>
+                <p>x&apos; = <span id="xOne"></span></p>
+                <p>x&quot; = <span id="xTwo"></span></p>
+            </div>
+            
+            <div class="calculo-completo">
+                <!--<label for="calculo-completo">Cálculo completo</label>
+                <button id="calculo-completo">Mostrar</button>-->
+                <p id="mostrar-calculo"></p>
+            </div>
+           
+        </section>
+    </main>
+    
+    <script src="src/scripts/index.js"></script>
+</body>
+</html>

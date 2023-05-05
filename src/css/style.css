@@ -1,0 +1,15 @@
+.dividendo {
+    border-bottom: 1px solid #000;
+    border-width: content-width;
+}
+
+.divisao {
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    text-align: center;
+}
+
+.calculation-field {
+    display: flex;
+}
