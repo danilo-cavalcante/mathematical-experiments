@@ -1,0 +1,58 @@
+.container.triangle-field {
+    display: flex;
+    width: 100%;
+    background-color: #eef;
+    justify-content: center;
+}
+
+.triangle-field {
+    height: 400px;
+    width: 400px;
+    background-color: #eef;
+    position: relative;
+}
+
+.triangle {
+    border: 80px solid #aaa;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.triangle-field input {
+    width: 30px;
+    text-align: center;
+    border: none;
+    border-radius: 50px;
+    position: absolute;
+}
+
+.triangle-field #hipotenusa {
+    top: 40%;
+    left: 60%;
+    transform: translate(-50%);
+}
+
+.triangle-field #cateto-lateral {
+    top: 40%;
+    left: 20%;
+    transform: translate(-50%);
+}
+
+.triangle-field #cateto-horizontal {
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.response .warning {
+    color: #f55;
+}
+
+.calculo-resolvido {
+    width: max-content;
+    text-align: center;
+}
