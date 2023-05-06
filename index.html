@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 
 <html>
+
 <head>
     <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/reset.css">
     <link rel="stylesheet" href="src/css/style.css">
     <title>Bhaskara</title>
 </head>
+
 <body>
     <main>
         <h3>Bhaskara</h3>
@@ -25,22 +29,23 @@
                 </div>
                 <button id="calcular-equacao">calcular</button>
             </form>
-            <div class="response">
-                <p class="formula">ax&sup2 + bx + c = 0</p>
-                <p class="formula-aplicada"></p>
-                <p>x&apos; = <span id="xOne"></span></p>
-                <p>x&quot; = <span id="xTwo"></span></p>
+            <div class="response-and-calculation">
+                <div class="response">
+                    <p class="formula">ax&sup2 + bx + c = 0</p>
+                    <p class="formula-aplicada"></p>
+                    <p>x&apos; = <span id="xOne"></span></p>
+                    <p>x&quot; = <span id="xTwo"></span></p>
+                </div>
+    
+                <div class="calculo-completo">
+                    <p id="mostrar-calculo"></p>
+                </div>
             </div>
-            
-            <div class="calculo-completo">
-                <!--<label for="calculo-completo">Cálculo completo</label>
-                <button id="calculo-completo">Mostrar</button>-->
-                <p id="mostrar-calculo"></p>
-            </div>
-           
+
         </section>
     </main>
-    
+
     <script src="src/scripts/index.js"></script>
 </body>
+
 </html>
