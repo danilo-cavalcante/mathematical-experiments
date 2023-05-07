@@ -21,7 +21,7 @@ btn.addEventListener('click', (e) =>{
     const inputsPreenchidos = [hipotenusa, catetoLateral, catetoHorizontal].filter(Boolean);
 
     if(hipotenusa === '' && inputsPreenchidos.length === 2) {
-        response.innerHTML = hCalculo
+        response.innerHTML = `hipotenusa = ${hCalculo}`
         calculation.innerHTML = `<div class='calculo-resolvido'>
                                      <p>h&sup2; = ${catetoLateral}&sup2; + ${catetoHorizontal}&sup2</p>    
                                      <p>h&sup2; = ${clQuadrado} + ${chQuadrado}</p>
@@ -30,7 +30,7 @@ btn.addEventListener('click', (e) =>{
                                      <p>h = ${hCalculo}</p>
                                  </div>`
     } else if(catetoLateral === '' && inputsPreenchidos.length === 2) {
-        response.innerHTML = clCalculo
+        response.innerHTML = `cateto = ${clCalculo}`
         calculation.innerHTML = `<div class='calculo-resolvido'>
                                      <p>${hipotenusa}&sup2; = x&sup2; + ${catetoHorizontal}&sup2</p>    
                                      <p>${hipoQuadrado} = x&sup2; + ${chQuadrado}</p>
@@ -39,7 +39,7 @@ btn.addEventListener('click', (e) =>{
                                      <p>x = ${clCalculo}</p>
                                  </div>`        
     } else if(catetoHorizontal === '' && inputsPreenchidos.length === 2) {
-        response.innerHTML = chCalculo
+        response.innerHTML = `cateto = ${chCalculo}`
         calculation.innerHTML = `<div class='calculo-resolvido'>
                                      <p>${hipotenusa}&sup2; = ${catetoLateral}&sup2 +  x&sup2;</p>    
                                      <p>${hipoQuadrado} = ${clQuadrado} +  x&sup2;</p>
