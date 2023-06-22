@@ -2,7 +2,7 @@
 
 ### Resultado
 
-[<img src='src/result/result.gif' alt='imagem do projeto'>]
+<img src='src/result/result.gif' alt='imagem do projeto'>
 
 ### Resultado mobile
 
