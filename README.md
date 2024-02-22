@@ -8,3 +8,8 @@
 
 [<img src='src/result/result-mobile.png' alt='design mobile'>]
 
+## Tecnologias utilizadas
+
+- HTML
+- CSS
+- JavaScript
