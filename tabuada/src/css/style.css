@@ -1,0 +1,59 @@
+body {
+    background-color: #302095;
+    min-height: 700px;
+}
+
+.tabuada {
+    display: flex;
+    padding: 30px;
+}
+
+.tabuada .field {
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px;
+    flex-grow: 1;
+    display: grid;
+    place-items: center;
+}
+
+.field.soma {
+    background-color: #faa;
+}
+
+.field.subtracao {
+    background-color: #aaf;
+}
+
+.field.multiplicacao {
+    background-color: #ffa;
+}
+
+.field.divisao {
+    background-color: #aff;
+}
+
+.field-calculation {
+    background-color: #608;
+    padding: 15px;
+    display: flex;
+    gap: 20px;
+    border-radius: 0 0 10px 10px;
+    color: aquamarine;
+}
+
+.field-calculation form {
+    display: flex;
+    gap: 10px;
+}
+
+.field-calculation form input {
+    width: 50px;
+    text-align: center;
+}
+
+@media(max-width:600px) {
+    main .tabuada {
+        flex-direction: column;
+    }
+}
